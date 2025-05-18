@@ -1,0 +1,155 @@
+.dashboard-container {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.stats-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stat-card h2 {
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.penjualan {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+}
+
+.pendapatan {
+  background: linear-gradient(135deg, #e17055, #fab1a0);
+}
+
+.stok {
+  background: linear-gradient(135deg, #00b894, #55efc4);
+}
+
+.charts-container {
+  margin-bottom: 20px;
+}
+
+.chart-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.chart-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.chart-wrapper {
+  display: flex;
+  gap: 20px;
+  height: 300px;
+}
+
+.line-chart, .doughnut-chart {
+  flex: 1;
+  position: relative;
+}
+
+.line-chart h4, .doughnut-chart h4 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.notifications-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.view-all {
+  background: none;
+  border: none;
+  color: #6c5ce7;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.notification-content h4 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.notification-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.notification-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.notification-badge.new {
+  background-color: #6c5ce7;
+}
+
+.notification-badge.pending {
+  background-color: #00b894;
+}

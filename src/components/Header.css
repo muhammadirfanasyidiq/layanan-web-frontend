@@ -1,0 +1,44 @@
+.header {
+  height: 60px;
+  background-color: #6c5ce7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 250px;
+  z-index: 100;
+  color: white;
+}
+
+.menu-toggle i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.dropdown-toggle i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.dropdown-toggle .fa-chevron-down {
+  margin-left: 5px;
+  font-size: 12px;
+}
