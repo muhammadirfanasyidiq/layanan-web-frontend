@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 
-const Login = () => {
+const Login = ({ onLogin }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -9,12 +9,15 @@ const Login = () => {
     e.preventDefault();
     // Implementasi logika login di sini
     console.log('Login dengan:', { email, password });
+    // Untuk demo, kita akan langsung login
+    onLogin();
   };
 
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2>Selamat Datang</h2>
+        <h2>MobilBagus</h2>
+        <h3>Selamat Datang</h3>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <input
